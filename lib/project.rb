@@ -4,6 +4,7 @@ class Project
   def initialize(title)
     @title = title
     @backers = []
+    binding.pry
   end
   
   def backers 
